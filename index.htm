@@ -1,0 +1,1092 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Sidonie Christophe">
+    <link rel="shortcut icon" type="image/x-icon" href="img/icons/favicon.png" />
+
+    <title>MapStyle</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+	<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+	<link href="css/languages.min.css" rel="stylesheet">
+    <link href="css/mapstyle-style.css" rel="stylesheet">
+	<link href="css/animate.css" rel="stylesheet">
+	<link href="js/fancybox/jquery.fancybox.css" rel="stylesheet">
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="../../assets/js/ie-emulation-modes-warning.js"></script>
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+  </head>
+  <body>
+
+	<section  id="accueil">
+    <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="col-xs-1 hidden-sm" id="logo-xs"><img src="img/logos/logo_Blanc_Transparent_xs.png" alt="logo"></div>
+		<div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand languageFr" href="#" style="margin-left: 7px;margin-right: 7px;">Projet MapStyle</a>
+		  <a class="navbar-brand languageEn" href="#" style="margin-left: 7px;">MapStyle Project</a>
+        </div>
+        <div class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li><a class="languageFr" href="#accueil">Accueil</a></li>
+			<li><a class="languageFr" href="#presentation">Objectifs</a></li>
+            <li><a class="languageFr" href="#about">Consortium</a></li>
+			<li><a class="languageFr" href="#galerie">Galerie</a></li>
+			<li><a class="languageFr" href="#publis">Publications</a></li>
+			<li><a class="languageFr" href="#Seminaire_de_cloture">Séminaire de clôture</a></li>
+            <li><a class="languageFr" href="#contact">Contact</a></li>
+			<li><a class="languageEn" href="#accueil">Home</a></li>
+			<li><a class="languageEn" href="#presentation">Objectives</a></li>
+            <li><a class="languageEn" href="#about">About</a></li>			
+			<li><a class="languageEn" href="#galerie">Gallery</a></li>
+			<li><a class="languageEn" href="#publis">Publications</a></li>
+			<li><a class="languageEn" href="#Seminaire_de_cloture">Closing conference</a></li>
+            <li><a class="languageEn" href="#contact">Contact</a></li>			
+          </ul>
+		  <form class="navbar-form pull-left hidden-sm">
+          <input type="text" style="width:150px" class="input-small languageFr" placeholder="Recherche">
+		  <input type="text" style="width:150px" class="input-small languageEn" placeholder="Research">
+          <button type="submit" class="btn btn-primary btn-xs languageFr"><span class="glyphicon glyphicon-search"></span> Chercher</button>
+		  <button type="submit" class="btn btn-primary btn-xs languageEn"><span class="glyphicon glyphicon-search"></span> Search</button>
+		  </form>
+            
+          <button type="button" class="pull-right btn btn-primary btn-xs languageEn changeLangFr">
+            <span class="lang-xs lang-lbl" lang="fr"></span>
+          </button>
+          <button type="button" class=" pull-right btn btn-primary btn-xs languageFr changeLangEn">
+            <span class="lang-xs lang-lbl" lang="en"></span>
+          </button>
+          <!--<a href="#" class="languageEn changeLangFr"><span class="lang-sm lang-lbl" lang="fr">TOTO</span></a>
+		  <a href="#" class="languageFr changeLangEn">
+          <img src  ="http://flags.redpixart.com/img/united_kingdom_preview.gif" alt="" style="float: right;padding-top: 15px;" /><span class="lang-sm lang-lbl" lang="fr">TOTO</span></a>-->
+        </div><!--/.nav-collapse -->
+      </div>
+    </div>
+	</section>
+    
+<div class="jumbotron">
+	<!-- LOGOS -->
+<div class="container">   
+   <div class="row">
+		<div class="col-md-12">
+		<div class="col-xs-4 col-md-1" id="logo-main"><img class="center-block" src="img/logos/logo_Transparent.png" alt="logo"></div>
+		<!--<div class="col-xs-4 col-md-3" id="IMY"><img class="center-block" src="img/logos/IMY.png"></div>-->
+		<div class="col-xs-4 col-md-6" id="logo-ANR-funded"><img class="center-block" src="img/logos/label-ANR-bleu-CMJN.png"></div>
+		</div>
+	</div>
+	
+	</div>
+		<!--</div>-->
+		<!-- ACTUS -->
+        <div class="container">
+			<p class="languageFr">04/2017: <strong>Talk <a href="http://s2017.siggraph.org/"> SIGGRAPH 2017: </a> <a class="bib" href="https://hal.archives-ouvertes.fr/hal-01538733/document">Constrained Palette-Space Exploration</a> </strong><small> <a href="https://www.irit.fr/STORM/constrained-palette-space-exploration/" class="bib">Project page</a></small></p>
+			<p class="languageFr">04/07/2017: <strong>Talk <a href="http://icc2017.org/"> ICC 2017: </a><a href="https://fr.slideshare.net/mamywata/texture-generation-for-expressive-rock-drawing" class="bib"> Texture generation for rock drawing</a></strong> </p>  
+			<p class="languageFr">06/07/2017: <strong>Talk <a href="http://icc2017.org/"> ICC 2017:</a><a href="https://fr.slideshare.net/mamywata/expressive-map-design-ogc-sldse-extension-for-expressive-mapstyles" class="bib"> Expressive map design: OGC SLD/SE++ extension for expressive map styles </a></strong> </p>
+			
+			<p class="languageEn">04/2017: <strong>Talk <a href="http://s2017.siggraph.org/"> SIGGRAPH 2017: </a> <a class="bib" href="https://hal.archives-ouvertes.fr/hal-01538733/document">Constrained Palette-Space Exploration</a> </strong> <a href="https://www.irit.fr/STORM/constrained-palette-space-exploration/" class="bib">Project page</a></small></p>
+			<p class="languageEn">04/07/2017: <strong>Talk <a href="http://icc2017.org/"> ICC 2017: </a><a href="https://fr.slideshare.net/mamywata/texture-generation-for-expressive-rock-drawing" class="bib"> Texture generation for rock drawing</a></strong> </p>  
+			<p class="languageEn">06/07/2017: <strong>Talk <a href="http://icc2017.org/"> ICC 2017:</a><a href="https://fr.slideshare.net/mamywata/expressive-map-design-ogc-sldse-extension-for-expressive-mapstyles" class="bib"> Expressive map design: OGC SLD/SE++ extension for expressive map styles </a></strong></p>
+			
+			<p class="languageFr">On parle de MapStyle dans <strong> <a href="http://www.ign.fr/institut/ign-magazine/ign-magazine-ndeg85"> IGN Magazine N°85 </a></strong> <small>(Janvier-Février-Mars 2017, pp16-17) </small> et dans <strong> <a href="http://www.ign.fr/institut/publications/rapports-dactivite"> le rapport d'activité de l'IGN 2016 </a> </strong><small> (p14) </small></p>
+				
+			<p class="languageFr">25/01/2017: <strong>Décryptagéo 2017 : <a href="http://lesrencontres.decryptageo.fr/reinventons-la-carte/">Réinventons la carte!</a></strong> <small>11h30-12h : Apport des rendus stylisés en cartographie, les pistes ouvertes par MapStyle. </small></p>
+			<p class="languageEn">25/01/2017: <strong>Décryptagéo 2017 : <a href="http://lesrencontres.decryptageo.fr/reinventons-la-carte/">Réinventons la carte!</a></strong> <small>11h30-12h : Apport des rendus stylisés en cartographie, les pistes ouvertes par MapStyle. </small></p>
+			<p class="languageFr">16-17/11/2016: <strong>ANR Rencontres du Numérique 2016</strong> ... </p>
+			<p class="languageFr">12/10/2016: <strong><a href="http://www.seatechevent.eu/Conferences-_-Workshops-Seminaire-national-Litto3D-694-3-0-0.html">Séminaire Litto3D</a></strong> (Cf. <a href="http://georezo.net/blog/litto3d/2016/10/27/geovisualisation-de-la-zone-littorale-vers-plus-de-realisme/"> Blog Litto3D) </a>: slides <a href="pdf/SChristophe_seminaireLitto3D.pdf" class="fancybox"> Géovisualisation réaliste des hauteurs d'eau (marée)</a></p>
+			<p class="languageEn">12/10/2016: <strong><a href="http://www.seatechevent.eu/Conferences-_-Workshops-Seminaire-national-Litto3D-694-3-0-0.html">Litto3D Workshop</a></strong> (Cf. <a href="http://georezo.net/blog/litto3d/2016/10/27/geovisualisation-de-la-zone-littorale-vers-plus-de-realisme/"> Blog Litto3D) </a>: slides <a href="pdf/SChristophe_seminaireLitto3D.pdf" class="fancybox">Realistic Geovisualization of coastal area</a></p>
+			<!--<div>-->
+				<p class="languageFr">29/09/2016: <strong>Séminaire de clôture : toutes nos présentations <a href="#Seminaire_de_cloture"> ici</a>.</strong></p>
+				<p class="languageEn">29/09/2016: <strong>Closing conference: Slides <a href="#Seminaire_de_cloture"> here</a>. </strong></p>
+			<!--</div>-->
+			<p class="languageFr">14/06/2016: <strong>Talks <a href="http://www.fgi.fi/fgi/research/code-loves-maps-cartographically-oriented-programming-environments">Agile 2016 Workshop 'Code Loves Maps: Cartographically Oriented Programming Environments'</a></strong>, 14 June 2016, Helsinki, Finland. </p>
+			<p class="languageEn">14/06/2016: <strong>Talks <a href="http://www.fgi.fi/fgi/research/code-loves-maps-cartographically-oriented-programming-environments">Agile 2016 Workshop 'Code Loves Maps: Cartographically Oriented Programming Environments'</a></strong>, 14 June 2016, Helsinki, Finland. </p>
+			<p class="languageFr">9/06/2016-12/06/2016: <strong>Vidéos MapStyle à <a href="http://www.futur-en-seine.paris/"> Futur en Seine 2016</a></strong>, Paris. </p>
+			<p class="languageEn">9/06/2016-12/06/2016: <strong>MapStyle videos <a href="http://www.futur-en-seine.paris/"> Futur en Seine 2016</a></strong>, Paris. </p>
+			<p class="languageFr">8/05/2016: <strong>Talk <a href="http://expressive.richardt.name/2016/NPAR/Home"> NPAR 2016</a></strong> <a href="#pub-confpapers">Map Style Formalization: rendering techniques extension for map design.</a></p>
+			<p class="languageEn">8/05/2016: <strong>Talk <a href="http://expressive.richardt.name/2016/NPAR/Home"> NPAR 2016</a></strong><a href="#pub-confpapers">Map Style Formalization: rendering techniques extension for map design.</a></p>
+            <!--<p class="languageFr">Présentation de l'article <a href="#pub-confpapers">Map Style Formalization: rendering techniques extension for map design</a> au cours du symposium NPAR (Non Photorealistic and Aesthetic Rendering) à Lisbonne le 8 mai 2016 matin.</p>
+            <p class="languageEn">Presentation of  the conference paper <a href="#pub-confpapers">Map Style Formalization: rendering techniques extension for map design</a> at the NPAR symbosium (Non Photorealistic and Aesthetic Rendering) on the morning of 8 May in Lisbon.</p>-->
+		</div> <!-- fin container -->
+    
+		<div class="container">
+			<!--<p class="languageFr"><strong>25/03/2016 - <a href="http://recherche.ign.fr/jr/jr16.php">Journées de la Recherche de l'IGN </a> et <a href="http://recherche.ign.fr/labos/cogit/newsCOGIT.php">Exposition de cartes <a href="http://mapyear.org/">We Love Maps</a> </a> </strong> </span></p>-->
+			<p class="languageFr">25/03/2016: <strong>MapStyle Maps Exhibit <a href="http://mapyear.org/">We Love Maps.</a> </strong></p>
+			<p class="languageEn">25/03/2016: <strong>MapStyle Maps Exhibit <a href="http://mapyear.org/">We Love Maps.</a> </strong></p>
+		</div> <!-- fin container -->
+
+		<div class="container">
+            <div class="row">
+                <div class="portfolio-items isotopeWrapper clearfix" id="3">
+
+				<!-- MAPS -->
+							<article class="col-md-4 isotopeItem cartes">
+								<div class="portfolio-item">
+									<img src="img/galerie/capture_JR_poster_continuum_CMJN.png" alt="" />
+									<div class="portfolio-desc align-center">
+										<div class="folio-info">
+											<h5 class="languageFr"><a href="#">Continuum entre une carte et une photographie aérienne</a></h5>
+											<h5 class="languageEn"><a href="#">Continuum between a map and an aerial photograph</a></h5>
+											<a href="img/galerie/capture_JR_poster_continuum_CMJN.png" class="fancybox"><i class="fa fa-plus fa-2x"></i></a>
+										</div>
+									</div>
+								</div>
+                            </article>
+							
+							<article class="col-md-4 isotopeItem cartes">
+								<div class="portfolio-item">
+									<img src="img/galerie/capture_JR16_aiguille_moine_A1-CMYK.png" alt="" />
+									<div class="portfolio-desc align-center">
+										<div class="folio-info">
+											<h5 class="languageFr"><a href="#">Carte de l'aiguille du Moine</a></h5>
+											<h5 class="languageEn"><a href="#">Aiguille du Moine map</a></h5>
+											<a href="img/galerie/capture_JR16_aiguille_moine_A1-CMYK.png" class="fancybox"><i class="fa fa-plus fa-2x"></i></a>
+															
+										</div>
+									</div>
+								</div>
+                            </article>							
+							
+							<article class="col-md-4 isotopeItem cartes">
+								<div class="portfolio-item">
+									<img src="img/galerie/capture_JR16_cassini-CMYK.png" alt="" />
+									<div class="portfolio-desc align-center">
+										<div class="folio-info">
+											<h5 class="languageFr"><a href="#">Carte Cassini</a></h5>
+											<h5 class="languageEn"><a href="#">Cassini map</a></h5>
+											<a href="img/galerie/capture_JR16_cassini-CMYK.png" class="fancybox"><i class="fa fa-plus fa-2x"></i></a>
+										</div>
+									</div>
+								</div>
+                            </article>
+							
+							<article class="col-md-4 isotopeItem cartes">
+								<div class="portfolio-item">
+									<img src="img/galerie/capture_JR16_carte_geoviz_littoral-CMYK.png" alt="" />
+									<div class="portfolio-desc align-center">
+										<div class="folio-info">
+											<h5 class="languageFr"><a href="#">Géovisualisations du littoral</a></h5>
+											<h5 class="languageEn"><a href="#">Geovisualizations of coastal area</a></h5>
+											<a href="img/galerie/capture_JR16_carte_geoviz_littoral-CMYK.png" class="fancybox"><i class="fa fa-plus fa-2x"></i></a>
+										</div>
+									</div>
+								</div>
+                            </article>
+							
+							<article class="col-md-4 isotopeItem cartes">
+								<div class="portfolio-item">
+									<img src="img/galerie/capture_JR2016_topostyle.png" alt="" />
+									<div class="portfolio-desc align-center">
+										<div class="folio-info">
+											<h5 class="languageFr"><a href="#">Le style topographique, voyage dans le temps et dans l'espace</a></h5>
+											<h5 class="languageEn"><a href="#">Topographic style, travel in time and space</a></h5>
+											<a href="img/galerie/capture_JR2016_topostyle.png" class="fancybox"><i class="fa fa-plus fa-2x"></i></a>
+										</div>
+									</div>
+								</div>
+                            </article>
+							
+							<article class="col-md-4 isotopeItem cartes">
+								<div class="portfolio-item">
+									<img src="img/galerie/capture_JR2016_aquarelle_CMYK.png" alt="" />
+									<div class="portfolio-desc align-center">
+										<div class="folio-info">
+											<h5 class="languageFr"><a href="#">Carte aquarelle</a></h5>
+											<h5 class="languageEn"><a href="#">Watercolor map</a></h5>
+											<a href="img/galerie/capture_JR2016_aquarelle_CMYK.png" class="fancybox"><i class="fa fa-plus fa-2x"></i></a>
+										</div>
+									</div>
+								</div>
+                            </article>
+						</div>
+					</div>
+				</div>
+		<p class="languageFr"><strong>MapStyle est un projet collaboratif de recherche visant à s'inspirer de l'existant en informatique graphique, en art et en cartographie, pour améliorer les possibilités de rendu en cartographie. Le projet est mené par l'IGN (équipes COGIT et MATIS) en partenariat avec INRIA (équipe Maverick) et IRIT (équipe VORTEX). Le projet est financé par l'Agence Nationale de la Recherche (ANR-12-CORD-0025) pour une durée de 36 mois (2012-2016).</strong> <br>
+			<div class="row mar-bot50  languageFr">
+		  <a href="pdf/Mapstyle_Dumenieu_JR2016.pdf" class="fancybox"> Présentation <i>Extension des standards de symbolisation pour le rendu cartographique expressif</i>, B. Duménieu, Journées de la Recherche IGN 2016</a><br>
+		  <a href="pdf/Mapstyle_Christophe_JR2015.pdf" class="fancybox">Présentation du projet ANR MapStyle (2012 - 2016), Rendus stylisés en cartographie, S. Christophe, Journées de la Recherche IGN 2015</a>
+		</div>
+        <p class="languageFr"><a class="btn btn-primary btn-lg" href="#presentation">En savoir plus</a></p>
+
+		<p class="languageEn"><strong>MapStyle is a collaborative research project aiming at improving cartographic renderings, based on computer graphics, art and map design knowledge. The project is leaded by IGN France (COGIT and MATIS Labs) with INRIA (Maverick team) and IRIT (Vortex team). The project is funded by the French national research agency (ANR-12-CORD-0025) for 36 months (2012-2016).</strong></p>    
+    	<div class="row mar-bot50 languageEn">
+            <a href="pdf/Mapstyle_Dumenieu_JR2016.pdf" class="fancybox"> Slides <i>Extension des standards de symbolisation pour le rendu cartographique expressif</i>, B. Duménieu, Research Days IGN 2016</a><br>
+		  <a href="pdf/Mapstyle_Christophe_JR2015.pdf" class="fancybox">Slides ANR project MapStyle (2012 - 2016), Stylized maps in cartography, S. Christophe, Research Days IGN 2015</a>
+		</div>
+    
+		<p class="languageEn"><a class="btn btn-primary btn-lg" href="#presentation">More</a></p>
+		
+		
+		<!--</div>-->
+
+    </div><!-- /.container -->
+</div><!-- /.jumbotron -->
+
+	<!-- spacer section:logos -->
+	<section id="logos" class="section mar-top40 mar-bot40" data-stellar-background-ratio="0.8">
+	<div class="container">
+		<div class="row">
+            <ul class="list-inline">
+                <li><a href="http://www.agence-nationale-recherche.fr/"><img class="img_logo img-responsive" src="img/logos/logo_ANR.gif" alt="Agence Nationale de la Recherche"></a></li>
+                <li><a href="http://www.capdigital.com/"><img class="img_logo" src="img/logos/logo_capdigital.jpg" alt="CapDigital"></a></li>
+                <li><a href="http://www.imaginove.fr/"><img class="img_logo" src="img/logos/logo_imaginove.png" alt="Imaginove"></a></li>
+                <li><a href="http://www.ign.fr/"><img class="img_logo img-responsive" src="img/logos/LOGO_IGN_p.png" alt="IGN"></a></li>
+                <li><a href="http://www.inria.fr/"><img class="img_logo img-responsive" src="img/logos/logo_INRIA.png" alt="INRIA"></a></li>
+                <li><a href="https://www.irit.fr/"><img class="img_logo img-responsive" src="img/logos/irit.jpg" alt="IRIT"></a></li>
+                <li><a href="http://recherche.ign.fr/labos/cogit/accueilCOGIT.php"><img class="img_logo img-responsive" src="img/logos/Cogit.gif" alt="COGIT"></a></li>
+                <li><a href="http://recherche.ign.fr/labos/matis/accueilMATIS.php"><img class="img_logo img-responsive" src="img/logos/matis.png" alt="MATIS"></a></li>
+                <li><a href="http://maverick.inria.fr/"><img class="img_logo img-responsive" src="img/logos/logo-maverick.png" alt="Maverick"></a></li>
+                <li><a href="https://www.irit.fr/-VORTEX-Team-/"><img class="img_logo img-responsive" src="img/logos/vortex.png" alt="Vortex"></a></li>
+            </ul>
+	</div>
+	</section>
+	<section class="section mar-top50 mar-bot50"></section>
+
+	<!-- section presentation -->
+	<section id="presentation" class="section appear clearfix">
+		<div class="container" style="text-align:justify;">
+			<div class="row mar-bot50">
+				<div class="col-md-offset-3 col-md-6">
+					<div class="section-header">
+						<h2 class="section-heading animated languageFr" data-animation="bounceInUp">Présentation du projet</h2>
+						<h2 class="section-heading animated languageEn" data-animation="bounceInUp">Project description</h2>
+					</div>
+				</div>
+			</div>
+			<div class="row mar-bot50 languageFr">
+				L’objectif du projet ANR MapStyle est d’étudier comment des méthodes issues de l’informatique graphique peuvent aider à styliser les rendus cartographiques, 
+				en prenant en compte les spécificités et les contraintes de la cartographie (lisibilité, efficacité, esthétique). En nous concentrant sur divers cas d’études, 
+				nous cherchons à formaliser la notion de style en cartographie. <br><br>
+				La <b>génération du rendu de zones rocheuses</b> n'est pas automatique : en particulier, contrôler la génération de motifs (rochers, éboulis, glaciers) reste un problème 
+				approché par des techniques de synthèse de textures vectorielles. <br>
+				La proposition d’un <b>continuum de visualisations hybrides d’ortho-photographies et de données vecteur</b> nous permet d’explorer des styles topographiques originaux, en faisant varier le niveau de photoréalisme : 
+				ce travail nous amène à explorer comment proposer une géovisualisation de la zone littorale, adaptée à des usages variés, à partir d’autres données géographiques hétérogènes comme Litto3D. <br>
+				Enfin, la conception de <b>cartes "à la manière de"</b> ouvre la voie à des styles artistiques et originaux posant le problème technique de l’extraction d’information dans des images 
+				et de leur utilisation dans le rendu de la carte.<br>
+				Afin de répondre à l’exigence d’efficacité en cartographie, les styles cartographiques proposés seront systématiquement évalués par des indicateurs et des tests auprès des utilisateurs. 
+				Le projet est développé sur la plateforme <a href="http://oxygene-project.sourceforge.net/"> GeOxygene</a> du laboratoire COGIT : nous proposons un modèle flexible de style basé sur une extension de la norme OGC Symbology Encoding (SE), associée à des méthodes de rendu expressif. 
+			</div>
+			<div class="row mar-bot50 languageEn">
+				The purpose of MapStyle ANR project is to experiment rendering methods coming from Computer Graphics in order to control the style of cartographic renderings, taking into account cartographic constraints (legibility, efficiency, aesthetics).
+				We aim at formalizing the concept of style in cartography, based on several use cases.<br><br>
+				<b>Rock drawing</b> is not automated in map design production: controlling cartographic patterns such as rocks, scree, etc. is still difficult and experiment with a programmable approach to generate vectoriel textures.<br>
+				Exploring new geovisualization styles is also approached by the proposition of a <b>continuum of hybrid visualizations of ortho-imagery and vector data</b>, by controlling the photo-realism level: 
+				this work leads to us to propose various possible geovisualizations of coastal area, based on heterogeneous data (ortho-imagery, vector data, Lidar data).<br>
+				Finally, controlling <b>artistic styles</b> allows to make personalized maps, "in the manner of" a painter, an art movement, etc., based on inspiration sources such as paintings, photographs, and mixing artistic and cartographic constraints.<br>
+				Cartographic renderings are evaluated systematically regarding on various possible uses, by targeted users. The project is implemented on <a href="http://oxygene-project.sourceforge.net/">GeOxygene</a> open-source GIS platform of the COGIT laboratory : we propose a flexible model of style, based on the extension of the OGC norm Symbology Encoding (SE) and on the implementation of expressive rendering methods.
+			</div>			
+		</div>
+	</section>
+
+	<!-- spacer section:mix -->
+	<section id="mix" class="section mar-top40 mar-bot40" data-stellar-background-ratio="0.8"></section>
+	<section class="section mar-top40 mar-bot40"></section>
+
+	<!-- section about -->
+	<section id="about" class="section appear clearfix">
+		<div class="container" style="text-align:justify;">
+			<div class="row mar-bot50">
+				<div class="col-md-offset-3 col-md-6">
+					<div class="section-header">
+						<h2 class="section-heading animated languageFr" data-animation="bounceInUp">Consortium</h2>
+						<h2 class="section-heading animated languageEn" data-animation="bounceInUp">About</h2>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-4">
+					<div class="panel panel-success">
+						<div class="panel-heading">
+							<h3 class="panel-title">IGN - Equipes COGIT, MATIS</h3>
+						</div>
+						<div class="panel-body" >
+							<p class="languageFr" >Le laboratoire <a href="http://recherche.ign.fr/labos/cogit/accueilCOGIT.php">COGIT</a> effectue des recherches sur l’intégration, la visualisation et l’analyse des données géographiques vectorielles. Un de ses axes de recherche concerne particulièrement les représentations cartographiques 
+							réalisées à partir de ces données. De nombreuses recherches y ont été réalisées en géovisualisation, sur l’automatisation des processus de conception cartographique 
+							et sur l’adaptation des couleurs de la carte aux besoins et préférences des utilisateurs. Le laboratoire <a href="http://recherche.ign.fr/labos/matis/accueilMATIS.php">MATIS</a> 
+							effectue des recherches en mathématiques appliquées, en télédétection et en informatique graphique.</p>
+							<p class="languageFr">Les participants au projet font partie du groupe de travail GEOVIS, visualisation et interaction :</p>
+							<p class="languageEn"><a href="http://recherche.ign.fr/labos/cogit/english/accueilCOGIT.php">COGIT</a> Laboratory leads research related to integration, diffusion, representation, and analysis 
+							of geographic information, and particularly vector data. In particular many research works have been driven in geovisualization, automatisation of map design processes and color adaptation to users' needs and preferences. 
+							<a href="http://recherche.ign.fr/labos/matis/accueilMATIS.php">MATIS</a> Laboratory leads research in applied mathematics, remote sensing and computer graphics. </p>
+							<p class="languageEn">Project members take part to the working group GEOVIS, visualisation and interaction:</p>
+							<ul>
+								<li class="languageFr"><a href="http://recherche.ign.fr/labos/matis/cv.php?nom=Br%E9dif&prenom=Mathieu" class="list-group-item">Mathieu Brédif</a></li>
+								<li class="languageEn"><a href="http://recherche.ign.fr/labos/matis/cv.php?nom=Br%E9dif&prenom=Mathieu" class="list-group-item">Mathieu Brédif</a></li>
+								<li class="languageFr"><a href="http://recherche.ign.fr/labos/cogit/cv.php?prenom=Sidonie&nom=Christophe" class="list-group-item">Sidonie Christophe, coordinatrice du projet</a></li>
+								<li class="languageEn"><a href="http://recherche.ign.fr/labos/cogit/english/cv.php?prenom=Sidonie&nom=Christophe" class="list-group-item">Sidonie Christophe, project leader</a></li>
+								<li class="languageFr"><a href="http://recherche.ign.fr/labos/cogit/cv.php?prenom=Bertrand&nom=Dumenieu" class="list-group-item">Bertrand Dumenieu, postdoc MapStyle</a></li>
+								<li class="languageEn"><a href="http://recherche.ign.fr/labos/cogit/english/cv.php?prenom=Bertrand&nom=Dumenieu" class="list-group-item">Bertrand Dumenieu, postdoc MapStyle</a></li>
+								<li class="languageFr"><a href="http://recherche.ign.fr/labos/cogit/cv.php?prenom=Charlotte&nom=Hoarau" class="list-group-item">Charlotte Hoarau</a></li>
+								<li class="languageEn"><a href="http://recherche.ign.fr/labos/cogit/english/cv.php?prenom=Charlotte&nom=Hoarau" class="list-group-item">Charlotte Hoarau</a></li>
+								<li class="languageFr"><a class="list-group-item">François Lecordix</a></li>
+								<li class="languageFr"><a href="http://recherche.ign.fr/labos/cogit/cv.php?prenom=Antoine&nom=Masse" class="list-group-item">Antoine Masse, postdoc MapStyle</a></li>
+								<li class="languageEn"><a href="http://recherche.ign.fr/labos/cogit/english/cv.php?prenom=Antoine&nom=Masse" class="list-group-item">Antoine Masse, postdoc MapStyle</a></li>
+								<li class="languageFr"><a href="http://recherche.ign.fr/labos/cogit/cv.php?prenom=Jeremie&nom=Ory" class="list-group-item">Jérémie Ory</a></li>	
+								<li class="languageEn"><a href="http://recherche.ign.fr/labos/cogit/english/cv.php?prenom=J%E9r%E9mie&nom=Ory" class="list-group-item">Jérémie Ory</a></li>	
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="panel panel-danger">
+						<div class="panel-heading">
+							<h3 class="panel-title">INRIA - Equipe Maverick</h3>
+						</div>
+						<div class="panel-body">
+							<p class="languageFr"><a href="">MAVERICK</a> est une équipe-centre de l'INRIA Grenoble Rhône-Alpes et une équipe du Département Géométrie et Image du Laboratoire Jean Kuntzmann, Unité Mixte de Recherche (UMR 5224) entre le CNRS et les Universités de Grenoble : INP-G, UJF et UPMF. Elle est située physiquement dans le Centre de Recherche de l'INRIA Grenoble Rhône-Alpes à Montbonnot, France. Maverick travaille dans le domaine de la Synthèse d'Images.</p>
+							<p class="languageFr">Les participants au projet sont :</p>
+							<p class="languageEn"> The <a href="">MAVERICK</a> project is both a team of INRIA Grenoble Rhône-Alpes and of the the LJK laboratory, a joint research unit of CNRS, INPG, UJF and UPMF. It is located at INRIA Grenoble Rhône-Alpes research center in Montbonnot, France. Maverick deals with image synthesis methods.</p>
+							<p class="languageEn">Project members:</p>
+							<ul>
+								<li><a href="http://maverick.inria.fr/~Benoit.Arbelot/" class="list-group-item">Benoit Arbelot</a></li>
+								<li><a href="http://maverick.inria.fr/~Hugo.Loi/" class="list-group-item">Hugo Loi, doctorant MapStyle</a></li>
+								<li><a href="http://maverick.inria.fr/Membres/Joelle.Thollot/" class="list-group-item">Joelle Thollot</a></li>
+								<li><a href="http://romain.vergne.free.fr/blog/" class="list-group-item">Romain Vergne</a></li>
+								
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="panel panel-warning">
+						<div class="panel-heading">
+							<h3 class="panel-title">IRIT - Equipe VORTEX</h3>
+						</div>
+						<div class="panel-body">
+							<p class="languageFr">L'équipe <a href="http://www.irit.fr/-VORTEX-Team-">VORTEX</a> du laboratoire <a href="http://www.irit.fr">IRIT</a> effectue des recherches en informatique graphique, en vision par ordinateur et en vie artificielle. En particulier, des travaux de recherche sont réalisés en rendu expressif et en stylisation au sein du groupe <a href="http://www.irit.fr/Rendering-and-Visualization">AGGA</a> de cette équipe.</p>
+							<p class="languageFr">Les participants au projet sont :</p>
+							<p class="languageEn">The <a href="http://www.irit.fr/-VORTEX-Team-">VORTEX</a> team of the <a href="http://www.irit.fr">IRIT</a> lab is specialized in computer graphics, computer vision and artificial life. Expressive rendering research is developped in the  <a href="http://www.irit.fr/Rendering-and-Visualization">AGGA</a> group of this team.</p>
+							<p class="languageEn">Project members:</p>
+							<ul>
+								<li><a href="http://www.irit.fr/~Nicolas.Mellado/" class="list-group-item">Nicolas Mellado, postdoc MapStyle</a></li>
+								<li><a href="#" class="list-group-item">Jérémie Turbet, ingénieur MapStyle</a></li>
+								<li><a href="http://www.dlyr.fr/" class="list-group-item">David Vanderhaeghe</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="panel panel-warning">
+						<div class="panel-heading">
+							<h3 class="panel-title">Autres Partenaires</h3>
+						</div>
+						<div class="panel-body">
+							<p>
+								<a href="http://www.professeurs.polymtl.ca/thomas.hurtut/" class="list-group-item">
+								Thomas Hurtut (Polytechnique Montréal)</a>
+							</p>
+							<!--<p class="languageEn">The team ...</p>
+							<p class="languageEn">Project members:</p>
+							<ul>
+								<li></li>
+								<li></li>
+							</ul>-->
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- spacer section:styletopo -->
+	<section id="styletopo" class="section mar-top40 mar-bot40" data-stellar-background-ratio="0.8"></section>
+	<section class="section mar-top40 mar-bot40"></section>
+
+	<!-- section galerie -->
+	<section id="galerie" class="section appear clearfix">
+		<div class="container">
+			<div class="row mar-bot50">
+				<div class="col-md-offset-3 col-md-6">
+					<div class="section-header languageFr">
+						<h2 class="section-heading animated" data-animation="bounceInUp">Galeries</h2>
+						<p>Galerie de cartes, d'images, de vidéos et de présentations illustrant les résultats du projet.</p>
+					</div>
+					<div class="section-header languageEn">
+						<h2 class="section-heading animated" data-animation="bounceInUp">Galleries</h2>
+						<p>Gallery of maps, pictures, videos and presentations illustrating project results.</p>
+					</div>
+				</div>
+			</div>
+
+            <div class="row">
+                <nav id="filter" class="col-md-12 text-center">
+                    <div class="btn-group">
+						<!--<a href="#cartes" class="btn btn-default btn-sm languageFr" data-filter=".cartes">Cartes</a></li>-->
+                        <a href="#images" class="btn btn-default current btn-sm languageFr" data-filter=".images">Images</a></li>
+                        <a href="#videos"  class="btn btn-default btn-sm languageFr" data-filter=".videos" >Vidéos</a></li>
+						<a href="#presentations"  class="btn btn-default btn-sm languageFr" data-filter=".presentations" >Présentations</a></li>
+						
+						<!--<a href="#cartes" class="btn btn-default btn-sm languageEn" data-filter=".cartes">Maps</a></li>-->
+						<a href="#images" class="btn btn-default current btn-sm languageEn" data-filter=".images">Pictures</a></li>
+                        <a href="#videos"  class="btn btn-default btn-sm languageEn" data-filter=".videos" >Videos</a></li>
+						<a href="#presentations"  class="btn btn-default btn-sm languageEn" data-filter=".presentations" >Slides</a></li>
+                    </div>
+                </nav>
+                <div class="col-md-12">
+                    <div class="row">
+                        <div class="portfolio-items isotopeWrapper clearfix" id="3">
+
+							<article class="col-md-4 isotopeItem images">
+								<div class="portfolio-item">
+									<img src="img/galerie/derain.png" alt="" />
+									<div class="portfolio-desc align-center">
+										<div class="folio-info">
+											<h5 class="languageFr"><a href="#">Carte "à la manière de" Derain</a></h5>
+											<h5 class="languageEn"><a href="#">Derain-style map</a></h5>
+											<a href="img/galerie/derain.png" class="fancybox"><i class="fa fa-plus fa-2x"></i></a>
+										</div>
+									</div>
+								</div>
+                            </article>
+							
+							<article class="col-md-4 isotopeItem images">
+								<div class="portfolio-item">
+									<img src="img/galerie/cassini.jpg" alt="" />
+									<div class="portfolio-desc align-center">
+										<div class="folio-info">
+											<h5 class="languageFr"><a href="#">Carte "à la manière de" Cassini (Stage de Laurane Boulanger 2015, Christophe et al. 2015)</a></h5>
+											<h5 class="languageEn"><a href="#">Cassini-style map (Boulanger 2015, Christophe et al. 2015)</a></h5>
+											<a href="img/galerie/cassini.jpg" class="fancybox"><i class="fa fa-plus fa-2x"></i></a>
+										</div>
+									</div>
+								</div>
+                            </article>
+							
+							<article class="col-md-4 isotopeItem images">
+								<div class="portfolio-item">
+									<img src="img/galerie/mer_vangogh.png" alt="" />
+									<div class="portfolio-desc align-center">
+										<div class="folio-info">
+											<h5 class="languageFr"><a href="#">Carte "à la manière de" Van Gogh</a></h5>
+											<h5 class="languageEn"><a href="#">Van Gogh-style map</a></h5>
+											<a href="img/galerie/mer_vangogh.png" class="fancybox"><i class="fa fa-plus fa-2x"></i></a>
+										</div>
+									</div>
+								</div>
+                            </article>
+							
+							<article class="col-md-4 isotopeItem images">
+								<div class="portfolio-item">
+									<img src="img/galerie/MountHood.png" alt="" />
+									<div class="portfolio-desc align-center">
+										<div class="folio-info">
+											<h5 class="languageFr"><a href="http://cartography.oregonstate.edu/CrinkledWatercolor.html" target="_blank">Carte aquarellisée en pseudo-3D</a></h5>
+											<h5 class="languageEn"><a href="http://cartography.oregonstate.edu/CrinkledWatercolor.html" target="_blank">Crinkled Watercolor Map</a></h5>
+											<a href="img/galerie/MountHood.png" class="fancybox"><i class="fa fa-plus fa-2x"></i></a>
+										</div>
+									</div>
+								</div>
+                            </article>
+							
+                            <article class="col-md-4 isotopeItem images">
+								<div class="portfolio-item">
+									<img src="img/galerie/aquarelle.png" alt="" />
+									<div class="portfolio-desc align-center">
+										<div class="folio-info">
+											<h5 class="languageFr"><a href="#">Carte stylisée avec un effet aquarelle</a></h5>
+											<h5 class="languageEn"><a href="#">Watercolor map</a></h5>
+											<a href="img/galerie/aquarelle.png" class="fancybox"><i class="fa fa-plus fa-2x"></i></a>
+										</div>
+									</div>
+								</div>
+                            </article>
+							
+							<article class="col-md-4 isotopeItem images">
+								<div class="portfolio-item">
+									<img src="img/galerie/aquarelle_2.png" alt="" />
+									<div class="portfolio-desc align-center">
+										<div class="folio-info">
+											<h5 class="languageFr"><a href="#">Carte stylisée avec un effet aquarelle (stage 2014)</a></h5>
+											<h5 class="languageEn"><a href="#">Watercolor map</a></h5>
+											<a href="img/galerie/aquarelle_2.png" class="fancybox"><i class="fa fa-plus fa-2x"></i></a>
+										</div>
+									</div>
+								</div>
+                            </article>
+							
+							<article class="col-md-4 isotopeItem images">
+								<div class="portfolio-item">
+									<img src="img/galerie/aquarelle1.png" alt="" />
+									<div class="portfolio-desc align-center">
+										<div class="folio-info">
+											<h5 class="languageFr"><a href="#">Carte stylisée avec un effet aquarelle (réalisée avec GeOxygene)</a></h5>
+											<h5 class="languageEn"><a href="#">Watercolor map</a></h5>
+											<a href="img/galerie/aquarelle_2.png" class="fancybox"><i class="fa fa-plus fa-2x"></i></a>
+										</div>
+									</div>
+								</div>
+                            </article>
+							
+							<article class="col-md-4 isotopeItem images">
+								<div class="portfolio-item">
+									<img src="img/galerie/litto_carte_bib.png" alt="" />
+									<div class="portfolio-desc align-center">
+										<div class="folio-info">
+											<h5 class="languageFr"><a href="#">Géovisualisation du littoral (Masse & Christophe 2015)</a></h5>
+											<!-- On pourrait essayer de mettre des GIFs animé ?? ou alors juste une vidéo en fait...-->
+											<h5 class="languageEn"><a href="#">...</a></h5>
+											<a href="img/galerie/litto_carte_bib.png" class="fancybox"><i class="fa fa-plus fa-2x"></i></a>
+										</div>
+									</div>
+								</div>
+                            </article>
+							
+							<article class="col-md-4 isotopeItem images">
+								<div class="portfolio-item">
+									<img src="img/galerie/texture_hugo.png" alt="" />
+									<div class="portfolio-desc align-center">
+										<div class="folio-info">
+											<h5 class="languageFr"><a href="#">Texture vectorielle (Loi et al. 2014)</a></h5>
+											<!-- On pourrait essayer de mettre des GIFs animé ?? ou alors juste une vidéo en fait...-->
+											<h5 class="languageEn"><a href="#">...</a></h5>
+											<a href="img/galerie/texture_hugo.png" class="fancybox"><i class="fa fa-plus fa-2x"></i></a>
+										</div>
+									</div>
+								</div>
+                            </article>
+							
+							<article class="col-md-4 isotopeItem images">
+								<div class="portfolio-item">
+									<img src="img/galerie/litto_ortho_bib.png" alt="" />
+									<div class="portfolio-desc align-center">
+										<div class="folio-info">
+											<h5 class="languageFr"><a href="#">Géovisualisation du littoral (Masse & Christophe 2015)</a></h5>
+											<!-- On pourrait essayer de mettre des GIFs animé ?? ou alors juste une vidéo en fait...-->
+											<h5 class="languageEn"><a href="#">...</a></h5>
+											<a href="img/galerie/litto_ortho_bib.png" class="fancybox"><i class="fa fa-plus fa-2x"></i></a>
+										</div>
+									</div>
+								</div>
+                            </article>
+							
+							<article class="col-md-4 isotopeItem images">
+								<div class="portfolio-item">
+									<img src="img/galerie/continuum_final.png" alt="" />
+									<div class="portfolio-desc align-center">
+										<div class="folio-info">
+											<h5 class="languageFr"><a href="#">Continuum entre une carte et une photographie aérienne (Hoarau 2015)</a></h5>
+											<h5 class="languageEn"><a href="#">Continuum between a map and an aerial photograph (Hoarau 2015)</a></h5>
+											<a href="img/galerie/continuum_final.png" class="fancybox"><i class="fa fa-plus fa-2x"></i></a>
+										</div>
+									</div>
+								</div>
+                            </article>
+							<!-- VIDEOS-->
+							<article class="media hidden col-md-4 isotopeItem videos">
+								<div class="flex-video widescreen">
+									<iframe name="Séminaire de clôture | Continuum de géovisualisation littorale animé" width="100%" height="100%" src="https://www.youtube.com/embed/IgGAtckXC8w" frameborder="0" allowfullscreen></iframe>
+								</div>
+							</article>
+							<article class="media hidden col-md-4 isotopeItem videos">
+								<div class="flex-video widescreen">
+									<iframe name="FenS16 MapStyle" width="100%" height="100%" src="https://www.youtube.com/embed/slg3B65jd3c" frameborder="0" allowfullscreen></iframe>
+								</div>
+							</article>
+							<article class="media hidden col-md-4 isotopeItem videos">
+								<div class="flex-video widescreen">
+									<iframe name="FenS16 Géovisualisation de la zone cotière" width="100%" height="100%" src="https://www.youtube.com/embed/TImlkLAyGxg" frameborder="0" allowfullscreen></iframe>
+								</div>
+							</article>
+							<article class="media hidden col-md-4 isotopeItem videos">
+								<div class="flex-video widescreen">
+									<iframe name="FenS16 Continuums cartographiques" width="100%" height="100%" src="https://www.youtube.com/embed/Cie7sonzlzA" frameborder="0" allowfullscreen></iframe>
+								</div>
+							</article>
+							<article class="media hidden col-md-4 isotopeItem videos">
+								<div class="flex-video widescreen">
+									<iframe name="Geovisualization of coastal area" width="100%" height="100%" src="https://www.youtube.com/embed/DhZP6XjCukk" frameborder="0" allowfullscreen></iframe>
+								</div>
+							</article>
+							<article class="media hidden col-md-4 isotopeItem videos">
+								<div class="flex-video widescreen">
+									<iframe width="100%" height="100%" src="https://www.youtube.com/embed/OzlMcKwFRRs" frameborder="0" allowfullscreen></iframe>
+								</div>
+							</article>
+							<article class="media hidden col-md-4 isotopeItem videos">
+								<div class="flex-video widescreen">
+									<iframe width="100%" height="100%" src="http://www.dailymotion.com/embed/video/x250hs0" frameborder="0" allowfullscreen></iframe>
+								</div>
+							</article>
+							
+							<!-- SLIDES -->
+							<article class="media hidden col-md-4 isotopeItem presentations">
+								<div class="flex-video widescreen">
+									<iframe src="http://www.slideshare.net/slideshow/embed_code/key/7mYtXsi6B08iDz" width="425" height="355" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"> </iframe>								
+								</div>
+							</article>
+							<article class="media hidden col-md-4 isotopeItem presentations">
+								<div class="flex-video widescreen">
+									<iframe src="http://www.slideshare.net/slideshow/embed_code/key/vphE12EwngLgHz" width="425" height="355" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"> </iframe>								
+								</div>
+							</article>
+							<article class="media hidden col-md-4 isotopeItem presentations">
+								<div class="flex-video widescreen">
+									<iframe src="http://www.slideshare.net/slideshow/embed_code/key/As4mnlfH3YtAQ2" width="476" height="400" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"> </iframe>
+								</div>
+							</article>
+							
+							<article class="media hidden col-md-4 isotopeItem presentations">
+								<div class="flex-video widescreen">
+									<iframe src="http://www.slideshare.net/slideshow/embed_code/key/MOoGt6Jsb3ggdg" width="476" height="400" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"> </iframe>
+								</div>
+							</article>
+							
+							<article class="media hidden col-md-4 isotopeItem presentations">
+								<div class="flex-video widescreen">
+									<iframe src="http://www.slideshare.net/slideshow/embed_code/key/chgbA8GPFJRTxY" width="476" height="400" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"> </iframe>
+								</div>
+							</article>						
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- spacer section:style -->
+	<section id="style" class="section mar-top40 mar-bot40" data-stellar-background-ratio="0.8"></section>
+	<section class="section mar-top40 mar-bot40"></section>
+
+	<!-- section publications -->
+	<section id="publis" class="section appear clearfix">
+		<div class="container" style="text-align:justify;">
+			<div class="row mar-bot50">
+				<div class="col-md-offset-3 col-md-6">
+					<div class="section-header">
+						<h2 class="section-heading animated" data-animation="bounceInUp">Publications</h2>
+						<p class="languageFr">Liste des publications du projet.</p>
+						<p class="languageEn">List of publications of the project.</p>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12">
+					<div class="panel panel-default">
+						<div class="panel-heading">
+							<h3  class="panel-title languageFr">Articles de revue</h3>
+							<h3  class="panel-title languageEn">Journal articles</h3>
+						</div>
+						<div class="panel-body">
+							<ul>
+								<li class="bib">Arbelot B., Vergne R., Hurtut T., Thollot J. (2017) <a class="bib" href="https://hal.inria.fr/hal-01520729">Local texture-based color transfer and colorization.</a><em> Computers and Graphics, Elsevier, 2017, Virtual Special Section on Expressive 2016</em>, 62, pp.15 - 27. DOI:10.1016/j.cag.2016.12.005. <hal-01520729>
+									<div class="pubLink">
+										<span class="bibtex"><input type="image" src="img/icons/bibtex.png" alt="BibTeX entry for this article" title="BibTeX entry for this article" onclick="window.open('bib/ArbelotEtAl2017.html','BibTex','width=800,height=200,top=100,left=100,scrollbars=yes,resizable=yes');"></span>
+										<a href="https://hal.inria.fr/hal-01520729/document" class="imgLink"><img src="img/icons/pdf_icon.gif" height="16" alt="Full Access" title="Full Access"></a>
+									</div>
+								</li>
+								<li class="bib">Hoarau C., Christophe S. (2017) <a class="bib" href="http://www.sciencedirect.com/science/article/pii/S0924271616304014">Cartographic continuum rendering based on color and texture interpolation to enhance photo-realism perception.</a> <em>ISPRS Journal of Photogrammetry and Remote Sensing</em>, vol 127, May 2017. DOI:10.1016/j.isprsjprs.2016.09.012
+
+									<div class="pubLink">
+										<span class="bibtex"><input type="image" src="img/icons/bibtex.png" alt="BibTeX entry for this article" title="BibTeX entry for this article" onclick="window.open('bib/HoarauChristophe2017.html','BibTex','width=800,height=200,top=100,left=100,scrollbars=yes,resizable=yes');"></span>
+										<a href="http://www.sciencedirect.com/science/article/pii/S0924271616304014" class="imgLink"><img src="img/icons/pdf_icon.gif" height="16" alt="Full Access" title="Full Access"></a>
+									</div>
+								</li>
+								<li class="bib">Masse A., Christophe S. (2016) <a class="bib" href="http://rig.revuesonline.com/articles/lvrig/abs/2016/04/rig00008/rig00008.html"> Améliorer la perception du réalisme dans la géovisualisation du littoral - utilisation de données spatio-temporelles hétérogènes.</a> <em>Revue Internationale de Géomatique (RIG)</em> vol.26, n.4 (4-2016), pp 403-424 http://dx.doi.org/10.3166/rig.2016.00008.									<div class="pubLink">
+										<span class="bibtex"><input type="image" src="img/icons/bibtex.png" alt="BibTeX entry for this article" title="BibTeX entry for this article" onclick="window.open('bib/MasseChristophe2016.html','BibTex','width=800,height=200,top=100,left=100,scrollbars=yes,resizable=yes');"></span>
+										<!--<a href="http://fr.slideshare.net/jrmieo123/oryetaliccrio2015" class="imgLink"> Slides</a>-->
+									</div>
+								</li>
+								<li class="bib"> Mellado N., Vanderhaeghe D., Hoarau C., Christophe S., Brédif M., Barthe L. (2017). 
+								<a class="bib" href="https://hal.archives-ouvertes.fr/hal-01538733/document"> Constrained Palette-Space Exploration</a>, ACM Transactions on Graphics, Association for Computing Machinery, 2017, 36 (4), pp.60.
+									<div class="pubLink">
+									<span class="bibtex"><input type="image" src="img/icons/bibtex.png" alt="BibTeX entry for this article" title="BibTeX entry for this article" onclick="window.open('bib/MelladoEtAl2017.html','BibTex','width=800,height=200,top=100,left=100,scrollbars=yes,resizable=yes');"></span> 
+									<a href="https://hal.archives-ouvertes.fr/hal-01538733/document"> <img src="img/icons/pdf_icon.gif" height="16" alt="Full Access" title="Full Access"></a>
+									<a href="https://www.irit.fr/STORM/constrained-palette-space-exploration/" class="bib">Project page</a>
+									</div>
+								</li>
+								<li class="bib">Ory  J., Christophe S., Fabrikant S.I., Bucher B. (2015) <a class="bib" href="http://www.tandfonline.com/doi/abs/10.1080/00087041.2015.1119459">How do map readers recognize a topographic mapping style?</a> <em>The Cartographic Journal</em>, 52(2). pp.193-203. DOI:10.1080/00087041.2015.1119459
+									<div class="pubLink">
+										<span class="bibtex"><input type="image" src="img/icons/bibtex.png" alt="BibTeX entry for this article" title="BibTeX entry for this article" onclick="window.open('bib/LoiEtAl2017.html','BibTex','width=800,height=200,top=100,left=100,scrollbars=yes,resizable=yes');"></span>
+										<a href="http://fr.slideshare.net/jrmieo123/oryetaliccrio2015" class="imgLink"> Slides</a>
+									</div>
+								</li>
+								<li class="bib">Loi H., Hurtut T., Vergne R., Thollot J. (2017) <a class="bib" href="http://dl.acm.org/citation.cfm?id=2983617&CFID=798903067&CFTOKEN=17237640">Programmable 2D Arrangements for Element Texture Design</a> <em>ACM Trans. Graph.</em>, vol. 36(3) DOI:10.1145/2983617
+									<div class="pubLink">
+										<span class="bibtex"><input type="image" src="img/icons/bibtex.png" alt="BibTeX entry for this article" title="BibTeX entry for this article" onclick="window.open('bib/Ory_etal_2015.html','BibTex','width=800,height=200,top=100,left=100,scrollbars=yes,resizable=yes');"></span>
+										<!--<a href="http://fr.slideshare.net/jrmieo123/oryetaliccrio2015" class="imgLink"> Slides</a>-->
+									</div>
+								</li>				
+								<li class="bib">Christophe S., Hoarau C. (2013) <a class="bib" href="http://www.cartographicperspectives.org/index.php/journal/article/view/cp73-christophehoarau">Expressive Map Design Based on Pop Art: Revisit of Semiology of Graphics?</a>, <em>Cartographic Perspectives</em>, Volume 73, 2013
+									<div class="pubLink">
+										<span class="bibtex"><input type="image" src="img/icons/bibtex.png" alt="BibTeX entry for this article" title="BibTeX entry for this article" onclick="window.open('bib/christopheHoarau13.html','BibTex','width=800,height=200,top=100,left=100,scrollbars=yes,resizable=yes');"></span>
+										<a href="http://www.cartographicperspectives.org/index.php/journal/article/view/cp73-christophehoarau" class="imgLink"><img src="img/icons/pdf_icon.gif" height="16" alt="Full Access" title="Full Access"></a>
+									</div>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="panel panel-default">
+						<div class="panel-heading">
+							<h3 class="panel-title languageFr">Actes de conférence</h3>
+							<h3 class="panel-title languageEn">Conference papers</h3>
+						</div>
+						<div class="panel-body" id="pub-confpapers">
+							<ul> 
+								<li class="bib">Arbelot B., Vergne R., Hurtut T., Thollot J. (2016) <a class="bib" href="https://hal.archives-ouvertes.fr/hal-01305596">Automatic Texture Guided Color Transfer and Colorization.</a> Expressive 2016, May 2016, Lisbonne, Portugal. Eurographics Association, pp.21-32, Expresive '16 Proceedings of the Joint Symposium on Computational Aesthetics and Sketch Based Interfaces and Modeling and Non-Photorealistic Animation and Rendering.
+									<div class="pubLink">
+										<span class="bibtex"><input type="image" src="img/icons/bibtex.png" alt="BibTeX entry for this article" title="BibTeX entry for this article" onclick="window.open('bib/ArbelotEtAl2017.html','BibTex','width=800,height=200,top=100,left=100,scrollbars=yes,resizable=yes');"></span>
+										<a href="https://hal.archives-ouvertes.fr/hal-01305596/document" class="imgLink"><img src="img/icons/pdf_icon.gif" height="16" alt="Full Access" title="Full Access"></a>
+									</div>
+								</li>
+								<li class="bib"> Christophe S., Duménieu B., Masse A., Hoarau C., Ory J., Brédif M., Lecordix F., Mellado N., Turbet J., Loi H., Hurtut T., Vergne R., Vanderhaeghe D., Thollot J., (2017). <a class="bib" href="https://fr.slideshare.net/mamywata/expressive-map-design-ogc-sldse-extension-for-expressive-mapstyles"> Expressive map design: OGC SLD/SE++ extension for expressive map styles.</a> ICC 2017, Washington D.C., USA, July, 2-7, 2017.
+									<div class="pubLink">
+									<!--<span class="bibtex"><input type="image" src="img/icons/bibtex.png" alt="BibTeX entry for this article" title="BibTeX entry for this article" onclick="window.open('bib/ChristopheEtAl2016.html','BibTex','width=800,height=200,top=100,left=100,scrollbars=yes,resizable=yes');"></span> -->
+									<a href="https://fr.slideshare.net/mamywata/expressive-map-design-ogc-sldse-extension-for-expressive-mapstyles"> <img src="img/icons/slideshare.png" height="16" alt="Full Access" title="Full Access"></a>
+									</div>
+								</li>
+								
+								<li class="bib"> Christophe S., Loi H.,  Brédif M., Lecordix F., Hurtut T., Vergne R.,  Thollot J. (2017). <a class="bib" href="https://fr.slideshare.net/mamywata/texture-generation-for-expressive-rock-drawing"> Texture generation for expressive rock drawing. </a> ICC 2017, Washington D.C., USA, July, 2-7, 2017. 
+									<div class="pubLink">
+									<!--<span class="bibtex"><input type="image" src="img/icons/bibtex.png" alt="BibTeX entry for this article" title="BibTeX entry for this article" onclick="window.open('bib/ChristopheEtAl2016.html','BibTex','width=800,height=200,top=100,left=100,scrollbars=yes,resizable=yes');"></span> -->
+									<a href="https://fr.slideshare.net/mamywata/texture-generation-for-expressive-rock-drawing"> <img src="img/icons/slideshare.png" height="16" alt="Full Access" title="Full Access"></a>
+									</div>
+								</li>
+								
+								<li class="bib"> Christophe S., Duménieu B., Turbet J., Hoarau C., Mellado N., Ory J., Loi H., Masse A., Arbelot B., Vergne R., Brédif M., Hurtut T., Thollot J., Vanderhaeghe D. (2016). <a class="bib" href="https://hal.archives-ouvertes.fr/hal-01317403/document">Map Style Formalization: Rendering Techniques Extension for Cartography</a>, Pierre Bénard; Holger Winnemöller. Expressive 2016 The Joint Symposium on Computational Aesthetics and Sketch-Based Interfaces and Modeling and Non-Photorealistic Animation and Rendering, May 2016, Lisbonne, Portugal. The Eurographics Association, Non-Photorealistic Animation and Rendering.
+									<div class="pubLink">
+									<span class="bibtex"><input type="image" src="img/icons/bibtex.png" alt="BibTeX entry for this article" title="BibTeX entry for this article" onclick="window.open('bib/ChristopheEtAl2016.html','BibTex','width=800,height=200,top=100,left=100,scrollbars=yes,resizable=yes');"></span> 
+									<a href="https://hal.archives-ouvertes.fr/hal-01317403/document"> <img src="img/icons/pdf_icon.gif" height="16" alt="Full Access" title="Full Access"></a>
+									</div>
+								</li>
+                                
+								<li class="bib"> Hoarau, C. and Christophe, S. (2015) <a class="bib" href="http://www.isprs-ann-photogramm-remote-sens-spatial-inf-sci.net/II-3-W5/507/2015/isprsannals-II-3-W5-507-2015.pdf">Color and Texture Interpolation Between Orthoimagery and Vector Data</a>, ISPRS Ann. Photogramm. Remote Sens. Spatial Inf. Sci., II-3/W5, 507-514, doi:10.5194/isprsannals-II-3-W5-507-2015, 2015.
+									<div class="pubLink">
+									<span class="bibtex"><input type="image" src="img/icons/bibtex.png" alt="BibTeX entry for this article" title="BibTeX entry for this article" onclick="window.open('bib/HoarauChristophe2015.html','BibTex','width=800,height=200,top=100,left=100,scrollbars=yes,resizable=yes');"></span>
+									<!--<a href="http://fr.slideshare.net/mamywata/mapstyle-automatic-rendering-of-a-cassini-style" class="imgLink"> Slides</a>-->
+									<a href="https://www.youtube.com/watch?v=OzlMcKwFRRs"><img src="img/icons/youtube.png" height="16" alt="Full Access" title="Full Access"></a>
+									<a href="http://www.isprs-ann-photogramm-remote-sens-spatial-inf-sci.net/II-3-W5/507/2015/isprsannals-II-3-W5-507-2015.pdf"> <img src="img/icons/pdf_icon.gif" height="16" alt="Full Access" title="Full Access"></a>
+									<a href="http://www.slideshare.net/GeoVIS15/color-and-textures-interpolation-for-homogeneous-sliding-between-orthoimagery-and-vector-data-charlotte-hoarau"> <img src="img/icons/slideshare.png" height="16" alt="Full Access" title="Full Access"></a>
+									</div>
+								</li>
+								<li class="bib"> Masse, A. and Christophe, S. (2015) <a class="bib" href="http://www.int-arch-photogramm-remote-sens-spatial-inf-sci.net/XL-3-W3/509/2015/isprsarchives-XL-3-W3-509-2015.pdf">Homogeneous geovisualization of costal areas from heterogeneous spatio-temporal data</a>, Int. Arch. Photogramm. Remote Sens. Spatial Inf. Sci., XL-3/W3, 509-516, doi:10.5194/isprsarchives-XL-3-W3-509-2015, 2015.
+									<div class="pubLink">
+										<span class="bibtex"><input type="image" src="img/icons/bibtex.png" alt="BibTeX entry for this article" title="BibTeX entry for this article" onclick="window.open('bib/MasseChristophe2015.html','BibTex','width=800,height=200,top=100,left=100,scrollbars=yes,resizable=yes');"></span>
+										<!--<a href="http://fr.slideshare.net/mamywata/mapstyle-automatic-rendering-of-a-cassini-style" class="imgLink"> Slides</a>-->
+										<a href="https://youtu.be/DhZP6XjCukk"><img src="img/icons/youtube.png" height="16" alt="Full Access" title="Full Access"></a>
+										<a href="http://www.int-arch-photogramm-remote-sens-spatial-inf-sci.net/XL-3-W3/509/2015/isprsarchives-XL-3-W3-509-2015.pdf"> <img src="img/icons/pdf_icon.gif" height="16" alt="Full Access" title="Full Access"></a>
+										<a href="http://www.slideshare.net/GeoVIS15/geovisualization-of-coastal-areas-from-heterogeneous-spatiotemporal-data-antoine-masse"> <img src="img/icons/slideshare.png" height="16" alt="Full Access" title="Full Access"></a>
+									</div>
+								</li>
+								<li	id="geovis" class="bib"> Masse, A., et S. Christophe. (2015) <a class="bib" href="http://ceur-ws.org/Vol-1535/paper-11.pdf">Visualisation homogène du littoral à partir de données géographiques hétérogènes spatio-temporelles</a>, <em>Actes du Colloque International de Géomatique et d'Analyse Spatiale (SAGEO 2015).</em>
+									<div class="pubLink">
+										<span class="bibtex"><input type="image" src="img/icons/bibtex.png" alt="BibTeX entry for this article" title="BibTeX entry for this article" onclick="window.open('bib/MasseChristophe2015b.html','BibTex','width=800,height=200,top=100,left=100,scrollbars=yes,resizable=yes');"></span>
+										<a href="http://ceur-ws.org/Vol-1535/paper-11.pdf" class="imgLink"><img src="img/icons/pdf_icon.gif" height="16" alt="Full Access" title="Full Access"></a>									
+									</div>
+								 
+								<li id="cassini" class="bib"> Christophe S., Hoarau C., Boulanger L., Turbet J., Vanderhaeghe D. (2015) <a class="bib" href="http://icaci.org/files/documents/ICC_proceedings/ICC2015/papers/10/1012.html">Automatic rendering of a Cassini style</a>, 
+								<em>27th International Cartographic Conference (ICC'15), Rio de Janeiro, Brasil</em>. (abstract)
+								<div class="pubLink">
+									<span class="bibtex"><input type="image" src="img/icons/bibtex.png" alt="BibTeX entry for this article" title="BibTeX entry for this article" onclick="window.open('bib/christophecassini15.html','BibTex','width=800,height=200,top=100,left=100,scrollbars=yes,resizable=yes');"></span>
+									<a href="http://icaci.org/files/documents/ICC_proceedings/ICC2015/papers/10/1012.html" class="imgLink"><img src="img/icons/pdf_icon.gif" height="16" alt="Full Access" title="Full Access"></a>
+									<a href="http://fr.slideshare.net/mamywata/mapstyle-automatic-rendering-of-a-cassini-style" class="imgLink"> Slides</a>
+								</div>
+								</li>
+								<li class="bib"> Ory J., Christophe S., Fabrikant S.I., Bucher B. (2014) <a class="bib" href=" ">Caractérisation visuelle d'un style topographique</a>, <em>Actes du Colloque International de Géomatique et d'Analyse Spatiale (SAGEO 2014).</em>
+								<div class="pubLink">
+									<span class="bibtex"><input type="image" src="img/icons/bibtex.png" alt="BibTeX entry for this article" title="BibTeX entry for this article" onclick="window.open('bib/Ory_etal_2014.html','BibTex','width=800,height=200,top=100,left=100,scrollbars=yes,resizable=yes');"></span>
+									<a href="http://www.geo.uzh.ch/~sara/pubs/OryChristopheFabrikantBucher_SAGEO14.pdf" class="imgLink"><img src="img/icons/pdf_icon.gif" height="16" alt="Full Access" title="Full Access"></a>
+									<a href="http://fr.slideshare.net/jrmieo123/2014-sageo-ory" class="imgLink"> Slides</a>
+								</div>
+								</li>
+								<li class="bib">Hoarau C., Christophe S., Mustière S. (2015) <a class="bib" href=" ">Sliding from imagery realism to topographic abstraction</a>, <em>27th International Cartographic Conference (ICC'15), Rio de Janeiro, Brasil. (abstract)</em>
+									<div class="pubLink">
+									<span class="bibtex"><input type="image" src="img/icons/bibtex.png" alt="BibTeX entry for this article" title="BibTeX entry for this article" onclick="window.open('bib/HoarauEtAl2015.html','BibTex','width=800,height=200,top=100,left=100,scrollbars=yes,resizable=yes');"></span>
+									<a href="http://icaci.org/files/documents/ICC_proceedings/ICC2015/papers/2/fullpaper/T2-123_1428055595.pdf" class="imgLink"><img src="img/icons/pdf_icon.gif" height="16" alt="Full Access" title="Full Access"></a>
+									<a href="http://fr.slideshare.net/CharlotteHoarau/sliding-from-imagery-realism-to-topographic-abstraction" class="imgLink"> Slides</a>
+									</div>
+								</li>
+								<li class="bib">Hoarau C., Christophe S., Mustiere S. (2013) <a class="bib" href="http://icaci.org/files/documents/ICC_proceedings/ICC2013/_extendedAbstract/185_proceeding.pdf">Mixing, blending, merging or scrambling topographic maps and orthoimagery in geovisualizations ?</a> <em>XVIth International Cartographic Conference (ICC 2013), Dresden, Germany</em>.
+									<div class="pubLink">
+										<span class="bibtex"><input type="image" src="img/icons/bibtex.png" alt="BibTeX entry for this article" title="BibTeX entry for this article" onclick="window.open('bib/Hoarau_etal_2013.html','BibTex','width=800,height=200,top=100,left=100,scrollbars=yes,resizable=yes');"></span>
+										<a href="https://www.google.fr/url?sa=t&rct=j&q=&esrc=s&source=web&cd=3&ved=0CCwQFjACahUKEwiV4OOtvZLIAhXFWRoKHROmBCM&url=http%3A%2F%2Frecherche.ign.fr%2Flabos%2Futil_basilic%2FpublicDownload.php%3Fid%3D2838&usg=AFQjCNGLnx3ORbSjauBE2JK3uz1r4H7tYw&sig2=vP37hO6zBZ5egcDvDT4YpA&cad=rja" class="imgLink"><img src="img/icons/pdf_icon.gif" height="16" alt="Full Access" title="Full Access"></a>
+										<a href="http://fr.slideshare.net/CharlotteHoarau/icc-2013-mixing-blending-merging-or-scrambling-topographic-maps-and-orthoimagery-in-geovisualization" class="imgLink"> Slides</a>
+									</div>
+								</li>	
+								<li	id="bib" class="bib"> Loi H., Hurtut T., Vergne R., Thollot J. (2013) <a class="bib" href="https://hal.inria.fr/hal-00857482/document">Discrete Texture Design Using a Programmable Approach</a>, <em>SIGGRAPH Talks, 2013.</em>
+								<div class="pubLink">
+									<span class="bibtex"><input type="image" src="img/icons/bibtex.png" alt="BibTeX entry for this article" title="BibTeX entry for this article" onclick="window.open('bib/LoiEtAl2013.html','BibTex','width=800,height=200,top=100,left=100,scrollbars=yes,resizable=yes');"></span>
+									<a href="http://hal.inria.fr/hal-00857482/en" class="imgLink"><img src="img/icons/halinria.png" height="10" alt="HAL-INRIA" title="HAL-INRIA"></a>
+									<a href="https://hal.inria.fr/hal-00857482/document" class="imgLink"><img src="img/icons/pdf_icon.gif" height="16" alt="Full Access" title="Full Access"></a>		
+								</div>
+								</li>
+								<li	id="bib" class="bib"> Mellado N., Vanderhaeghe D., Hoarau C., Christophe S., Brédif M., Barthe L. (2017)  <a class="bib" href="">Constrained Palette-Space Exploration</a>, <em>ACM Transaction on Graphics (Siggraph 2017).</em>
+								<div class="pubLink">
+									<span class="bibtex"><input type="image" src="img/icons/bibtex.png" alt="BibTeX entry for this article" title="BibTeX entry for this article" onclick="window.open('bib/MelladoEtAl2017.html','BibTex','width=800,height=200,top=100,left=100,scrollbars=yes,resizable=yes');"></span>
+									<!--<a href="http://hal.inria.fr/hal-00857482/en" class="imgLink"><img src="img/icons/halinria.png" height="10" alt="HAL-INRIA" title="HAL-INRIA"></a>-->
+									<!--<a href="https://hal.inria.fr/hal-00857482/document" class="imgLink"><img src="img/icons/pdf_icon.gif" height="16" alt="Full Access" title="Full Access"></a>		-->
+								</div>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="panel panel-default">
+						<div class="panel-heading">
+							<h3 class="panel-title languageFr">Thèses</h3>
+							<h3 class="panel-title languageEn">PhD Thesis</h3>
+						</div>
+						<div class="panel-body">
+							<ul>
+								<li	class="bib"> Hugo Loi. <a class="bib" href="https://hal.inria.fr/tel-01462816">Programmable Synthesis of Element Textures and Application to Cartography. </a>Graphics [cs.GR]. Université de Grenoble, 2015. English. </em>
+								<div class="pubLink">
+									<span class="bibtex"><input type="image" src="img/icons/bibtex.png" alt="BibTeX entry for this article" title="BibTeX entry for this article" onclick="window.open('bib/Loi2015.html','BibTex','width=800,height=200,top=100,left=100,scrollbars=yes,resizable=yes');"></span>
+									<a href="https://hal.inria.fr/tel-01462816" class="imgLink"><img src="img/icons/halinria.png" height="10" alt="HAL-INRIA" title="HAL-INRIA"></a>
+									<a href="https://hal.inria.fr/tel-01462816/document" class="imgLink"><img src="img/icons/pdf_icon.gif" height="16" alt="Full Access" title="Full Access"></a>		
+								</div>
+							</ul>
+							<ul>
+								<li	class="bib"> Charlotte Hoarau. <a class="bib" href="http://recherche.ign.fr/labos/cogit/pdf/THESES/HOARAU/These_Hoarau_2015.pdf">Représentations cartographiques intermédiaires : comment covisualiser une carte et une orthophotographie pour naviguer entre abstraction et réalisme ?  </a> Thèse en Sciences de l'Information Géographique, Université Paris-Est, 2015.</em>
+								<div class="pubLink">
+									<!--<span class="bibtex"><input type="image" src="img/icons/bibtex.png" alt="BibTeX entry for this article" title="BibTeX entry for this article" onclick="window.open('bib/Loi2015.html','BibTex','width=800,height=200,top=100,left=100,scrollbars=yes,resizable=yes');"></span>-->
+									<!--<a href="https://hal.inria.fr/tel-01462816" class="imgLink"><img src="img/icons/halinria.png" height="10" alt="HAL-INRIA" title="HAL-INRIA"></a>-->
+									<a href="http://recherche.ign.fr/labos/cogit/pdf/THESES/HOARAU/These_Hoarau_2015.pdf" class="imgLink"><img src="img/icons/pdf_icon.gif" height="16" alt="Full Access" title="Full Access"></a>		
+								</div>
+							</ul>
+							<ul>
+								<li	class="bib"> Jérémie Ory. <a class="bib" href="http://recherche.ign.fr/labos/util_basilic/publicDownload.php?id=3882">Connaissances pour la construction et la perception de styles cartographiques : territoires et pratiques cartographiques.  </a> Thèse en Sciences de l'Information Géographique, Université Paris-Est, 2016.</em>
+								<div class="pubLink">
+									<!--<span class="bibtex"><input type="image" src="img/icons/bibtex.png" alt="BibTeX entry for this article" title="BibTeX entry for this article" onclick="window.open('bib/Loi2015.html','BibTex','width=800,height=200,top=100,left=100,scrollbars=yes,resizable=yes');"></span>-->
+									<!--<a href="https://hal.inria.fr/tel-01462816" class="imgLink"><img src="img/icons/halinria.png" height="10" alt="HAL-INRIA" title="HAL-INRIA"></a>-->
+									<a href="http://recherche.ign.fr/labos/util_basilic/publicDownload.php?id=3882" class="imgLink"><img src="img/icons/pdf_icon.gif" height="16" alt="Full Access" title="Full Access"></a>		
+								</div>
+							</ul>
+						</div>
+					</div>
+					<div class="panel panel-default">
+						<div class="panel-heading">
+							<h3 class="panel-title languageFr">Rapports de recherche</h3>
+							<h3 class="panel-title languageEn">Research Reports</h3>
+						</div>
+						<div class="panel-body">
+							<ul>
+								<li	class="bib"> Loi H., Hurtut T., Vergne R., Thollot J. (2015) <a class="bib" href="https://hal.inria.fr/hal-01141869/document">A Programmable Model for Designing Stationary 2D Arrangements</a>, <em>[Research Report] RR-8713, Inria - Research Centre Grenoble – Rhône-Alpes; INRIA. 2015.</em>
+								<div class="pubLink">
+									<span class="bibtex"><input type="image" src="img/icons/bibtex.png" alt="BibTeX entry for this article" title="BibTeX entry for this article" onclick="window.open('bib/LoiEtAl2015.html','BibTex','width=800,height=200,top=100,left=100,scrollbars=yes,resizable=yes');"></span>
+									<a href="https://hal.inria.fr/hal-01141869" class="imgLink"><img src="img/icons/halinria.png" height="10" alt="HAL-INRIA" title="HAL-INRIA"></a>
+									<a href="https://hal.inria.fr/hal-01141869/document" class="imgLink"><img src="img/icons/pdf_icon.gif" height="16" alt="Full Access" title="Full Access"></a>		
+								</div>
+							</ul>
+						</div>
+					</div>
+					
+					<div class="panel panel-default">
+						<div class="panel-heading">
+							<h3 class="panel-title languageFr">Communications orales</h3>
+							<h3 class="panel-title languageEn">Communications</h3>
+						</div>
+						<div class="panel-body">
+							<ul>
+								<li class="bib"> Masse, A., Christophe, S. (2016). <a class="bib" href="https://hal.archives-ouvertes.fr/hal-01503347/">Geovisualisation of animated tides in coastal area with an OpenSource
+                                    OpenGL platform</a>, Agile 2016 Workshop 'Code Loves Maps: Cartographically Oriented Programming Environments', 14 June 2016, Helsinki, Finland (Position Paper).
+									<!--<div class="pubLink">
+									<span class="bibtex"><input type="image" src="img/icons/bibtex.png" alt="BibTeX entry for this article" title="BibTeX entry for this article" onclick="window.open('bib/MasseChristophe2016b.html','BibTex','width=800,height=200,top=100,left=100,scrollbars=yes,resizable=yes');"></span> 
+									</div> ADD WHEN PROCEEDINGS ARE OUT-->
+									<a href="https://hal.archives-ouvertes.fr/hal-01503347/"> <img src="img/icons/pdf_icon.gif" height="16" alt="Full Access" title="Full Access"></a>
+								</li>                                       
+								<li class="bib"> Duménieu, B., Christophe, S. (2016). <a class="bib" href="https://www.researchgate.net/publication/309489415_Integrating_expressive_rendering_techniques_in_a_GIS_cartographic_pipeline">Integrating expressive rendering techniques in a GIS cartographic
+                                    pipeline</a>, Agile 2016 Workshop 'Code Loves Maps: Cartographically Oriented Programming Environments', 14 June 2016, Helsinki, Finland (Position Paper).
+									<!--<div class="pubLink">
+									<span class="bibtex"><input type="image" src="img/icons/bibtex.png" alt="BibTeX entry for this article" title="BibTeX entry for this article" onclick="window.open('bib/DumenieuChristophe2016.html','BibTex','width=800,height=200,top=100,left=100,scrollbars=yes,resizable=yes');"></span> 
+									</div> ADD WHEN PROCEEDINGS ARE OUT-->
+									<a href="https://www.researchgate.net/publication/309489415_Integrating_expressive_rendering_techniques_in_a_GIS_cartographic_pipeline"> <img src="img/icons/pdf_icon.gif" height="16" alt="Full Access" title="Full Access"></a>
+								</li>                       
+							</ul>
+						</div>
+					</div>	
+								
+					<div class="panel panel-default">
+						<div class="panel-heading">
+							<h3 class="panel-title">Posters</h3>
+						</div>
+						<div class="panel-body">
+							<ul>
+								<!--<li class="bib" id="girresTouya14">J.-F. Girres, G. Touya,<a class="bib" href="">Cartographic generalisation aware of multiple representations</a>. In M. Duckham, K. Stewart, and E. Pebesma (Eds.), <em>Proceedings of GIScience 2014 - Poster session</em>, Vienna, Austria, 23-26 september 2014.
+									<span class="bibtex"><input type="image" src="img/icons/bibtex.png" alt="BibTeX entry for this article" title="BibTeX entry for this article" onclick="window.open('bib/girresTouya14.html','BibTex','width=800,height=200,top=100,left=100,scrollbars=yes,resizable=yes');"></span>
+								</li>-->
+								<li id="cassini" class="bib">Ory J., Christophe S., Fabrikant S. (2013) <a class="bib" href=""> Identification of style in topographic maps</a>, poster proceedings, <em>26th International Cartographic Conference (ICC 2013), Dresden, Germany, 2013.</em>
+								<div class="pubLink">
+									<span class="bibtex"><input type="image" src="img/icons/bibtex.png" alt="BibTeX entry for this article" title="BibTeX entry for this article" onclick="window.open('bib/Ory_etal_2013.html','BibTex','width=800,height=200,top=100,left=100,scrollbars=yes,resizable=yes');"></span>
+									<a href="http://recherche.ign.fr/labos/util_basilic/publicDownload.php?id=3116" class="imgLink"><img src="img/icons/pdf_icon.gif" height="16" alt="Full Access" title="Full Access"></a>
+								</div>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- section séminaire -->
+	<section id="Seminaire_de_cloture" class="section appear clearfix">
+		<div class="container" style="text-align:justify;">
+			<div class="row mar-bot50">
+				<div class="col-md-offset-3 col-md-6">
+					<div class="section-header">
+						<h2 class="section-heading animated languageFr" data-animation="bounceInUp">Séminaire de clôture</h2>
+						<h2 class="section-heading animated languageEn" data-animation="bounceInUp">Closing conference</h2>
+					</div>
+				</div>
+			</div>
+			
+			<p class="languageFr" style="font-size:larger;font-weight:bold;margin:0px 80px 10px 50px;">Le séminaire de clôture du projet ANR MapStyle « Rendus stylisés en cartographie »  a eu lieu le Jeudi 29 Septembre 2016 à l'IGN.</p>
+			<p class="languageEn" style="font-size:larger;font-weight:bold;margin:0px 80px 10px 50px;">Closure conference of the ANR MapStyle project « Expressive renderings for map design »  took place on the Sept. 29, 2016  at the IGN.</p>
+			<br>
+			<div class="container" style="text-align:justify;">
+			<img style="margin : 15px 10% 30px 30px; height:290px;" src="img/galerie/DSC_0594.jpg" alt="Photo de groupe" />
+			</div>
+			<br>
+			<h4 class="section-heading animated languageFr"><strong>Programme final: les présentations sont accessibles ci-dessous.</strong></h4>
+			<h4 class="section-heading animated languageEn"><strong>Final program: slides inside.</strong></h4>
+			<p style="font-size:smaller;font-style: italic;">Cliquez sur les présentations pour en savoir plus !</p>
+			<div class="row">
+				<div class="col-md-12">
+				
+					<div class="panel panel-default">	
+						<div class="panel-heading">
+							<h3  class="panel-title">13h30 – 14h00 : Accueil / Café</h3>
+						</div>
+						<div class="panel-heading">
+							<h3  class="panel-title">
+								<a data-toggle="collapse" href="#collapse1">14h00 – 14h30 : Introduction : enjeux et besoins en cartographie (Sidonie Christophe - IGN)</a>
+							</h3>
+						</div>
+						<div class="panel-body panel-collapse collapse" id="collapse1">
+							En cartographie, avoir des moyens de rendre la carte plus expressive permettrait de faciliter la transmission d'un message, en accentuant l'intention de l'auteur, en soulignant plus fortement ou en atténuant certaines informations dans la carte. La combinaison de la capacité des techniques de rendu avec l'expertise sur les données géographiques et leurs représentations graphiques permettrait une plus grande expressivité et une plus grande créativité dans la conception cartographique. Par ailleurs, l’abondance de données géographiques, bases de données vecteur, ortho-images et Litto3D en particulier, permet aux utilisateurs de visualiser dans des géoportails, des représentations différentes du territoire, avec des points de vue différents. Néanmoins, il n'est pas toujours aisé de se repérer facilement lorsque l’on passe d’une représentation à une autre : ce besoin implique d'explorer des techniques de conception et de rendu, au-delà de la gestion de la transparence, pour co-visualiser cartes, données vecteur et ortho-imagerie.
+						<br>
+						<p style="height:300px;">
+							<iframe src="http://www.slideshare.net/slideshow/embed_code/key/2ajvjQOGthB7nv" width="410" height="275" frameborder="0" style="margin : 15px 0px 0px 4%;" scrolling="no" allowfullscreen> </iframe>
+							<img style="margin : 15px 4% 0px 0px; height:205px; position:relative; top:-152px" src="pdf/demarche_globale.png" alt="" />
+						</p>
+						</div>
+						<div class="panel-heading">
+							<h3  class="panel-title">
+								<a data-toggle="collapse" href="#collapse2">14h30 – 15h00 : Techniques de rendu expressif pour la cartographie (David Vanderhaeghe - IRIT)</a>
+							</h3>
+						</div>
+						<div class="panel-body panel-collapse collapse" id="collapse2">
+							Des techniques de stylisation linéaire et de génération de textures raster pour le remplissage des surfaces, ont été développées, à partir de sources d’inspiration artistiques et cartographiques. 
+							<p style="height:360px;">
+								<a  href="pdf/MapStyle_Seminaire_Cloture_Vanderhaeghe.pdf"><img style="margin : 15px 30% 0px 30%; height:300px" src="pdf/MapStyle_Seminaire_Cloture_Vanderhaeghe.PNG" alt="Télécharger la présentation" /></a>
+							</p>
+						</div>
+						<div class="panel-heading">
+							<h3  class="panel-title">
+								<a data-toggle="collapse" href="#collapse3">15h00 – 15h30 : Intégration des méthodes de rendu dans un SIG et conception de cartes stylisées (Bertrand Duménieu – IGN)</a>
+							</h3>
+						</div>
+						<div class="panel-body panel-collapse collapse" id="collapse3">
+						Le paramétrage et le stockage des informations de modélisation et de stylisation cartographique au sein des logiciels de SIG s’appuient sur un ensemble de standards et bonnes pratiques définis par l’Open Geospatial Consortium. Le projet MapStyle a notamment pour objectif de permettre l’intégration de méthodes de rendu expressif contrôlables par l’utilisateur au sein d’un logiciel de SIG. Afin d'homogénéiser la description et le contrôle de styles cartographiques mêlant méthodes expressives et usuelles, nous proposons donc une extension des formalismes standards de description de styles cartographiques OGC Styled Layer Descriptor et OGC Symbology Encoding. Nous montrons comment l’architecture proposée permet de concevoir des représentations cartographiques personnalisées.
+							<br>
+							<p style="height:360px;">
+								<iframe src="http://www.slideshare.net/slideshow/embed_code/key/izg9MdAfWJQtmq" width="425" height="355" frameborder="0" style="margin : 15px 0px 0px 10%;" scrolling="no" allowfullscreen> </iframe>
+								<img style="margin : 15px 8% 0px 5px;  height:355px; position:relative; top:-181px" src="img/galerie/capture_JR16_cassini-CMYK.png" alt="" />
+							</p>
+						</div>
+						<div class="panel-heading">
+							<h3  class="panel-title">
+								<a data-toggle="collapse" href="#collapse4">15h30 – 16h00 : Synthèse programmable de textures vectorielles et application à la cartographie (Hugo Loi – ARK SAS / INRIA)</a>
+							</h3>
+						</div>
+						<div class="panel-body panel-collapse collapse" id="collapse4">
+							Nous présentons une méthode programmable de conception d'arrangements 2D pour des textures constituées de petits éléments géométriques. Notre approche cible les artistes-techniciens qui concevront chaque arrangement en écrivant un script basé sur un jeu d'opérateurs réduit. Nous appliquons cette approche au domaine de la cartographie pour synthétiser automatiquement les motifs de hachurage représentant les zones rocheuses de montagnes dans les cartes topographiques.
+							<br>
+							<p style="height:360px;">
+							<a  href="pdf/MapStyle_Seminaire_Cloture_Loi.pdf"><img style="margin : 15px 5px 0px 5%; height:300px" src="pdf/MapStyle_Seminaire_Cloture_Loi.PNG" alt="Télécharger la présentation" /></a>
+							<img style="margin : 15px 5% 0px 5px; height:300px" src="img/galerie/capture_JR16_aiguille_moine_A1-CMYK.png" alt="" />
+							</p>
+							
+						</div>
+						<div class="panel-heading">
+							<h3  class="panel-title">16h00 – 16h30 : Pause Café et Démo "Concevoir une carte style Estampe avec GeOxygene" </h3>
+						</div>
+						<div class="panel-heading">
+							<h3  class="panel-title">
+								<a data-toggle="collapse" href="#collapse5">16h30 – 17h00 :  Géovisualisation de données géographiques hétérogènes entre abstraction et photoréalisme (Charlotte Hoarau, Antoine Masse - IGN)</a>
+							</h3>
+						</div>
+						<div class="panel-body panel-collapse collapse" id="collapse5">
+							L'hétérogénéité des données géographiques actuelles (images, carte, référentiels) nous invitent à proposer des méthodes de co-visualisation afin d'adapter les géo-visualisations aux besoins et objectifs des utilisateurs. Pour cela, une attention particulière a été portée au contrôle du degré de réalisme et d'abstraction des géo-visualisations, (1) par l'utilisation de données géographiques plus précises et (2) par le choix de méthodes de rendu, afin d'influer sur la perception du réalisme par l'utilisateur final.
+							<br>
+							L'ensemble de ces recherches ont permis la construction d’un continuum de géo-visualisation animé entre les différents types de rendu possibles.
+							<br>
+							<p style="height:360px;">
+							<iframe src="http://www.slideshare.net/slideshow/embed_code/key/7mYtXsi6B08iDz" width="425" height="355" frameborder="0" style="margin : 15px 5px 0px 10%;" scrolling="no" allowfullscreen> </iframe>
+							<img style="margin : 15px 10% 0px 5px; height:355px; position:relative; top:-181px" src="img/galerie/capture_JR_poster_continuum_CMJN.png" alt="" />
+							</p>
+						</div>
+						<div class="panel-heading">
+							<h3  class="panel-title">
+								<a data-toggle="collapse" href="#collapse6">17h00 – 17h30 : Exploration de palettes de couleurs (Nicolas Mellado - IRIT)</a>
+							</h3>
+						</div>
+						<div class="panel-body panel-collapse collapse" id="collapse6">
+							Les couleurs jouent un rôle central dans la création de contenus numériques, et notamment en cartographie lors de la définition du style d'une carte. Dans le cadre de ce projet, nous nous focalisons sur la génération et l'exploration d'ensemble de couleurs, souvent appelés palettes de couleurs. Une des difficultés liée à ces travaux consiste à restreindre l'exploration à l'ensemble des palettes plausibles, autrement-dit aux palettes dont les couleurs respectent des contraintes définies à priori par l'utilisateur. Pour cela, nous proposons une nouvelle définition des palettes de couleurs sous forme de graphe explicitant les contraintes pour et entre chaque couleurs. A partir de cette représentation, nous démontrons comment utiliser les méthodes d'optimisation non-linéaire de l'état de l'art pour définir plusieurs systèmes d'exploration de palettes fonctionnant en temps réel.
+						</div>
+						<div class="panel-heading">
+							<h3  class="panel-title">17h30 – 18h00 : Perspectives, questions ouvertes et démos.</h3>
+						</div>			
+					</div>
+					
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<a href="#header" class="scrollup"><i class="fa fa-chevron-up"></i></a>
+
+	<section id="footer" class="section footer">
+		<div class="container">
+			<div class="row animated opacity mar-bot20 center-block" data-andown="fadeIn" data-animation="animation">
+				<div class="col-sm-12 center-block">
+                    <ul class="social-network social-circle">
+                        <li><a href="#" class="icoRss" title="Rss"><i class="fa fa-rss"></i></a></li>
+                        <!--<li><a href="http://www.dailymotion.com/mapmuxing" class="icoDailymotion" title="Dailymotion"><i class="fa fa-dailymotion"></i></a></li>
+                        <li><a href="https://twitter.com/mapmux" class="icoTwitter" title="Twitter"><i class="fa fa-twitter"></i></a></li>
+                        <li><a href="http://fr.slideshare.net/MapMuxing" class="icoSlideshare" title="SlideShare"><i class="fa fa-slideshare"></i></a></li>-->
+                    </ul>
+				</div>
+			</div>
+
+			<div class="row align-center copyright">
+					<div class="col-sm-12"><p>Copyright &copy; 2015 IGN - Institut National de l'Information Géographique et Forestière</p></div>
+			</div>
+		</div>
+	</section>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>-->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script src="js/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+	<script src="js/jquery.easing.1.3.js"></script>
+	<script src="js/jquery.isotope.min.js"></script>
+	<script src="js/jquery.nicescroll.min.js"></script>
+	<script src="js/fancybox/jquery.fancybox.pack.js"></script>
+	<script src="js/skrollr.min.js"></script>
+	<script src="js/jquery.scrollTo-1.4.3.1-min.js"></script>
+	<script src="js/jquery.localscroll-1.2.7-min.js"></script>
+	<script src="js/stellar.js"></script>
+	<script src="js/jquery.appear.js"></script>
+	<script src="js/validate.js"></script>
+	<script src="js/main.js"></script>
+	
+  </body>
+</html>
